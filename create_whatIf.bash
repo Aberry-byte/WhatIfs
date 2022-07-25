@@ -16,6 +16,8 @@ fi
 
 pushd $new_problem >> /dev/null
 
+/bin/touch README.md
+
 for user in ${problem_solvers[@]}; do
     /bin/mkdir $user
     pushd $user >> /dev/null
