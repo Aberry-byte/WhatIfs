@@ -1,0 +1,17 @@
+name: WhatIf
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python
+    - notebook
+    - nb_conda_kernels
+    - jupyter_contrib_nbextensions
+    - numpy
+    - matplotlib
+    - seaborn
+    - pandas
+    - scipy
+    - scikit-learn
+    - scrapy
+    - beautifulsoup4
