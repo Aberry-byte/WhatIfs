@@ -8,6 +8,7 @@ dependencies:
     - nb_conda_kernels
     - jupyter_contrib_nbextensions
     - numpy
+    - pillow
     - matplotlib
     - seaborn
     - pandas
